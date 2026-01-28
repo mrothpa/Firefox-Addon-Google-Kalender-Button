@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Kalender Sidebar",
+  "version": "1.0",
+  "dscrpiption": "Öffnet Google Kalender in der Tagesansicht über die Sidebar.",
+  "permissions": [
+    "tabs"
+  ],
+  "sidebar_action": {
+    "default_panel": "sidebar.html",
+    "default_title": "Google Kalender",
+    "default_icon": "calendar-icon.jpg",
+    "open_at_install": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "gcal-sidebar-btn@example.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
